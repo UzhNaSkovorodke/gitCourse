@@ -1,0 +1,23 @@
+body {
+    background-color: #F9F9F9;
+}
+
+.RubyNasrala {
+    width: 100px;
+}
+
+.list {
+    background: gray;
+}
+
+.container {
+    max-width: 1650px;
+    /* это макс ширина блока*/
+    margin: auto;
+    /* это выравнивание*/
+    padding: 10px;
+    /* это отступы (там если юзать padding left или right то будет конкретная сторона)*/
+    border: 5px solid darkgrey;
+    border-top-width: 4px;
+    /* это тзменение границ и нжие точечное изменение*/
+}
