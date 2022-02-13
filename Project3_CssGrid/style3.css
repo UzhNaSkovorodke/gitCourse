@@ -96,3 +96,8 @@ body {
     flex-wrap: wrap;
     justify-content: space-between;
 }
+
+.footer {
+    height: 200px;
+    background-color: #144661;
+}
