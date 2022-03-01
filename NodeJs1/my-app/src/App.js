@@ -1,13 +1,26 @@
-import './App.css';
-import headerr from './Header';
-import './Technologies';
+import React from "react";
+import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { Home } from "./pages/Home";
+import { About } from "./pages/About";
+import { Navbar } from "./Components/Navbar";
+import { Alert } from "./Components/Alert";
+import { AlertState } from "./Context/alert/AlertState";
 
 function App() {
   return (
-    <div>
-      <h1>JKaja</h1>
-    </div>
-    );
+    <AlertState>
+      <BrowserRouter>
+        <Navbar />
+        <div className="container pt-4">
+          <Alert />
+          <Switch>
+            <Route path={"/"} exact component={Home} />
+            <Route path={"/about"} component={About} />
+          </Switch>
+        </div>
+      </BrowserRouter>
+    </AlertState>
+  );
 }
 
 export default App;
