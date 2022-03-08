@@ -16,6 +16,7 @@ function App() {
           <Switch>
             <Route path={"/"} exact component={Home} />
             <Route path={"/about"} component={About} />
+            /* dsad */
           </Switch>
         </div>
       </BrowserRouter>
