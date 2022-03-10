@@ -1,23 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Sansita+Swashed&display=swap");
+p,
+h2 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  background-color: green;
+}
+
+a:active {
+  background-color: orchid;
+}
+
+article p {
+  text-align: justify;
+  font-size: 1.8ch;
+}
+
 body {
-    background-color: #F9F9F9;
+  margin: 2% 20%;
 }
 
-.RubyNasrala {
-    width: 100px;
+body .links {
+  text-align: center;
 }
 
-.list {
-    background: gray;
+body .links a {
+  margin-left: 1%;
+  font-size: small;
 }
 
-.container {
-    max-width: 1650px;
-    /* это макс ширина блока*/
-    margin: auto;
-    /* это выравнивание*/
-    padding: 10px;
-    /* это отступы (там если юзать padding left или right то будет конкретная сторона)*/
-    border: 5px solid darkgrey;
-    border-top-width: 4px;
-    /* это тзменение границ и нжие точечное изменение*/
+body .H1 {
+  width: 100%;
+  text-align: center;
+  font-size: 200%;
+  font-family: "Sansita Swashed", cursive;
 }
+
+body .mainLayout {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+body .mainLayout .textContainer {
+  width: 48%;
+}
+
+.fotterComent {
+  font-size: 2vh;
+  text-align: center;
+}
+/*# sourceMappingURL=CssPractix.css.map */

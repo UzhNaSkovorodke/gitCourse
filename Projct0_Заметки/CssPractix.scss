@@ -1,0 +1,49 @@
+p,
+h2 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+a {
+  color: black;
+}
+a:hover {
+  background-color: green;
+}
+a:active {
+  background-color: orchid;
+}
+article {
+  p {
+    text-align: justify;
+    font-size: 1.8ch;
+  }
+}
+body {
+  margin: 2% 20%;
+  .links {
+    text-align: center;
+    a {
+      margin-left: 1%;
+      font-size: small;
+    }
+  }
+  .H1 {
+    width: 100%;
+    text-align: center;
+    font-size: 200%;
+    font-family: "Sansita Swashed", cursive;
+  }
+  .mainLayout {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    .textContainer {
+      width: 48%;
+    }
+  }
+}
+.fotterComent {
+  font-size: 2vh;
+  text-align: center;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Sansita+Swashed&display=swap");
