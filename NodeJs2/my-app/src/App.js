@@ -1,11 +1,14 @@
 import "./App.css";
-
+import { Header } from "./Pages/Header";
+import { Main } from "./Pages/Main";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">Nav</header>
-      <main className="App-main">Apps</main>
-      <footer className="App-footer">Footer</footer>
+    <div className="app">
+      <header className="appHeader" id="appHeader">
+        <Header />
+      </header>
+      <Main />
+      <footer>Footer</footer>
     </div>
   );
 }

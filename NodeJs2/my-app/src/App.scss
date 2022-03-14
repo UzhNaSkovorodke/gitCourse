@@ -1,0 +1,29 @@
+.listNav {
+  display: flex;
+  align-items: center;
+  background-color: rgb(128, 125, 125);
+  width: 100%;
+  position: fixed;
+  z-index: 2;
+  scroll-snap-type: y mandatory;
+  scrollbar-width: none; //for firefox
+}
+.navParagraph {
+  padding: 2vh;
+}
+.appHeader {
+  background-color: rgb(190, 142, 142);
+  height: 2000px;
+}
+.appProjects {
+  background-color: rgb(142, 190, 160);
+  height: 2000px;
+}
+.appContacts {
+  background-color: rgb(168, 142, 190);
+  height: 2000px;
+}
+.appFooter {
+  background-color: rgb(153, 223, 174);
+  height: 2000px;
+}

@@ -1,1 +1,40 @@
-/* No CSS *//*# sourceMappingURL=App.css.map */
+.listNav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #807d7d;
+  width: 100%;
+  position: fixed;
+  z-index: 2;
+  -ms-scroll-snap-type: y mandatory;
+      scroll-snap-type: y mandatory;
+  scrollbar-width: none;
+}
+
+.navParagraph {
+  padding: 2vh;
+}
+
+.appHeader {
+  background-color: #be8e8e;
+  height: 2000px;
+}
+
+.appProjects {
+  background-color: #8ebea0;
+  height: 2000px;
+}
+
+.appContacts {
+  background-color: #a88ebe;
+  height: 2000px;
+}
+
+.appFooter {
+  background-color: #99dfae;
+  height: 2000px;
+}
+/*# sourceMappingURL=App.css.map */
