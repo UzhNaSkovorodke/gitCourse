@@ -1,3 +1,8 @@
+a {
+  text-decoration: none;
+  color: black;
+}
+
 .listNav {
   display: -webkit-box;
   display: -ms-flexbox;
