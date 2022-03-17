@@ -17,7 +17,7 @@ a {
   -ms-scroll-snap-type: y mandatory;
       scroll-snap-type: y mandatory;
   scrollbar-width: none;
-  background: rgba(13, 13, 13, 0.411);
+  background: #454545;
 }
 
 @supports ((-webkit-backdrop-filter: blur(2px)) or (backdrop-filter: blur(2px))) {

@@ -11,7 +11,7 @@ a {
   z-index: 2;
   scroll-snap-type: y mandatory;
   scrollbar-width: none; //for firefox
-  background: hsla(0, 0%, 5%, 0.411);
+  background: hsl(0, 0%, 27%);
   @supports (backdrop-filter: blur(2px)) {
     //проверка (свойтво: значение) выполняются, то { }
     background: hsla(0, 0%, 18%, 0.425);
