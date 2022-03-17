@@ -1,33 +1,39 @@
 a {
   text-decoration: none;
   color: rgb(0, 0, 0);
+  font-weight: bold;
 }
 .listNav {
   display: flex;
   align-items: center;
-  background-color: rgb(128, 125, 125);
   width: 100%;
   position: fixed;
   z-index: 2;
   scroll-snap-type: y mandatory;
   scrollbar-width: none; //for firefox
+  background: hsla(0, 0%, 5%, 0.411);
+  @supports (backdrop-filter: blur(2px)) {
+    //проверка (свойтво: значение) выполняются, то { }
+    background: hsla(0, 0%, 18%, 0.425);
+    backdrop-filter: blur(2px);
+  }
 }
 .navParagraph {
-  padding: 2vh;
+  padding: 2vh 3vh 2vh 3vh;
 }
-.appHeader {
-  background-color: rgb(190, 142, 142);
-  height: 2000px;
+.appAboutMe {
+  background-color: rgb(255, 255, 255);
+  height: 1000px;
 }
 .appProjects {
-  background-color: rgb(142, 190, 160);
+  background-color: rgb(172, 201, 183);
   height: 2000px;
 }
 .appContacts {
-  background-color: rgb(168, 142, 190);
+  background-color: rgb(179, 158, 197);
   height: 2000px;
 }
 .appFooter {
-  background-color: rgb(153, 223, 174);
+  background-color: rgb(255, 221, 235);
   height: 2000px;
 }

@@ -1,6 +1,7 @@
 a {
   text-decoration: none;
   color: black;
+  font-weight: bold;
 }
 
 .listNav {
@@ -10,36 +11,44 @@ a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #807d7d;
   width: 100%;
   position: fixed;
   z-index: 2;
   -ms-scroll-snap-type: y mandatory;
       scroll-snap-type: y mandatory;
   scrollbar-width: none;
+  background: rgba(13, 13, 13, 0.411);
+}
+
+@supports ((-webkit-backdrop-filter: blur(2px)) or (backdrop-filter: blur(2px))) {
+  .listNav {
+    background: rgba(46, 46, 46, 0.425);
+    -webkit-backdrop-filter: blur(2px);
+            backdrop-filter: blur(2px);
+  }
 }
 
 .navParagraph {
-  padding: 2vh;
+  padding: 2vh 3vh 2vh 3vh;
 }
 
-.appHeader {
-  background-color: #be8e8e;
-  height: 2000px;
+.appAboutMe {
+  background-color: white;
+  height: 1000px;
 }
 
 .appProjects {
-  background-color: #8ebea0;
+  background-color: #acc9b7;
   height: 2000px;
 }
 
 .appContacts {
-  background-color: #a88ebe;
+  background-color: #b39ec5;
   height: 2000px;
 }
 
 .appFooter {
-  background-color: #99dfae;
+  background-color: #ffddeb;
   height: 2000px;
 }
 /*# sourceMappingURL=App.css.map */
