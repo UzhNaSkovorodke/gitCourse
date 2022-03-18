@@ -28,17 +28,40 @@ a {
   }
 }
 
+.appHeader {
+  padding-bottom: 100px;
+}
+
 .navParagraph {
   padding: 2vh 3vh 2vh 3vh;
 }
 
 .appAboutMe {
   background-color: white;
-  height: 1000px;
+  height: 600px;
+}
+
+.pngAvatar {
+  width: 400px;
+}
+
+.blockAbout {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.ImageAbout {
+  width: 400px;
 }
 
 .appProjects {
-  background-color: #acc9b7;
+  background-color: #f5cdcd;
   height: 2000px;
 }
 

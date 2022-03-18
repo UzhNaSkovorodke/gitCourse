@@ -3,6 +3,7 @@ a {
   color: rgb(0, 0, 0);
   font-weight: bold;
 }
+//убираю с ссылок все некрасивое оформление и ставлю свое
 .listNav {
   display: flex;
   align-items: center;
@@ -18,15 +19,33 @@ a {
     backdrop-filter: blur(2px);
   }
 }
+//редактирую  стили навигации
+.appHeader {
+  padding-bottom: 100px;
+}
+//делаю отступ сверху навигации
 .navParagraph {
   padding: 2vh 3vh 2vh 3vh;
 }
+//делаю отступ элементов панели навигации чтобы не слипались
 .appAboutMe {
   background-color: rgb(255, 255, 255);
-  height: 1000px;
+  height: 600px;
+}
+.pngAvatar {
+  width: 400px;
+}
+.blockAbout {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+//ставлю space-around своему фото и textAbout
+.ImageAbout {
+  width: 400px;
 }
 .appProjects {
-  background-color: rgb(172, 201, 183);
+  background-color: rgb(245, 205, 205);
   height: 2000px;
 }
 .appContacts {
