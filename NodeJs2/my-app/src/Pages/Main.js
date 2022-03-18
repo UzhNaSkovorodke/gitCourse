@@ -9,6 +9,11 @@ export const Main = () => {
           <h2 className="textAbout">About me</h2>
           <img className="pngAvatar" src={avatarPng}></img>
         </div>
+        <div className="blockPhoto">
+          <div className="containerPhoto">a</div>
+          <div className="containerPhoto">a</div>
+          <div className="containerPhoto">a</div>
+        </div>
       </div>
       <div className="appProjects" id="appProjects"></div>
       <div className="appContacts" id="appContacts"></div>

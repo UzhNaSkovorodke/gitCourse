@@ -30,7 +30,7 @@ a {
 //делаю отступ элементов панели навигации чтобы не слипались
 .appAboutMe {
   background-color: rgb(255, 255, 255);
-  height: 600px;
+  height: 900px;
 }
 .pngAvatar {
   width: 400px;
@@ -41,8 +41,19 @@ a {
   align-items: center;
 }
 //ставлю space-around своему фото и textAbout
-.ImageAbout {
-  width: 400px;
+.pngAvatar {
+  width: 500px;
+}
+.blockPhoto {
+  padding: 200px;
+  display: flex;
+  justify-content: space-around;
+}
+//сделал флекс блоку с фото и замутил space around
+.containerPhoto {
+  width: 300px;
+  height: 150px;
+  background-color: rgb(131, 131, 131);
 }
 .appProjects {
   background-color: rgb(245, 205, 205);
