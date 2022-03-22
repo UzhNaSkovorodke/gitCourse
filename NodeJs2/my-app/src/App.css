@@ -4,7 +4,11 @@ a {
   font-weight: bold;
 }
 
-.listNav {
+.appHeader {
+  padding-bottom: 100px;
+}
+
+.appHeader .listNav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -21,18 +25,14 @@ a {
 }
 
 @supports ((-webkit-backdrop-filter: blur(2px)) or (backdrop-filter: blur(2px))) {
-  .listNav {
+  .appHeader .listNav {
     background: rgba(46, 46, 46, 0.425);
     -webkit-backdrop-filter: blur(2px);
             backdrop-filter: blur(2px);
   }
 }
 
-.appHeader {
-  padding-bottom: 100px;
-}
-
-.navParagraph {
+.appHeader .listNav .navParagraph {
   padding: 2vh 3vh 2vh 3vh;
 }
 
@@ -41,11 +41,20 @@ a {
   height: 900px;
 }
 
-.pngAvatar {
-  width: 400px;
+.appAboutMe .pngAvatar {
+  width: 500px;
 }
 
-.blockAbout {
+.appAboutMe .blockPhoto {
+  padding: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.appAboutMe .blockAbout {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -56,19 +65,6 @@ a {
           align-items: center;
 }
 
-.pngAvatar {
-  width: 500px;
-}
-
-.blockPhoto {
-  padding: 200px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-}
-
 .containerPhoto {
   width: 300px;
   height: 150px;
@@ -76,12 +72,16 @@ a {
 }
 
 .appProjects {
-  background-color: #f5cdcd;
   height: 2000px;
 }
 
+.appProjects .blockProjects {
+  padding: 200px;
+  background-color: white;
+}
+
 .appContacts {
-  background-color: #b39ec5;
+  background-color: white;
   height: 2000px;
 }
 
