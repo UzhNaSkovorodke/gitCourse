@@ -77,16 +77,16 @@ a {
 
 .appProjects .blockProjects {
   padding: 200px;
-  background-color: white;
+  background-color: #ffd2d2;
 }
 
 .appContacts {
-  background-color: white;
+  background-color: #ffdaf1;
   height: 2000px;
 }
 
 .appFooter {
-  background-color: #ffddeb;
+  background-color: #d5fff1;
   height: 2000px;
 }
 /*# sourceMappingURL=App.css.map */
