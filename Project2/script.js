@@ -1,14 +1,11 @@
-function scrollTo(element) {
-  window.scroll({
-    left: 0,
-    top: element.offsetTop,
-    behavior: "smooth",
-  });
+function imgSlider(anything) {
+  document.querySelector(".contentImg").src = anything;
 }
-
-var button = document.querySelector("");
-var project = document.querySelector("");
-
-button.addEventListener("click", () => {
-  console.log("КЛИК");
-});
+function changeCirlceColor(color) {
+  const circle = document.querySelector(".circle");
+  circle.style.background = color;
+}
+function changeTextColor(color) {
+  const circle = document.querySelector("span");
+  circle.style.color = color;
+}
