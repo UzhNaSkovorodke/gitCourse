@@ -1,13 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="main.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+    <script src="script.js"></script>
     <title>Document</title>
-</head>
-<body>
- 
-</body>
+  </head>
+  <body>
+    <section>
+      <div class="circle"></div>
+      <header>
+        <a href="">
+          <img class="logo" src="/Project2/Assets/Images/logoStabucks.png" />
+        </a>
+        <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="">Menu</a></li>
+          <li><a href="">What's new</a></li>
+          <li><a href="">Contacts</a></li>
+        </ul>
+      </header>
+      <div class="content">
+        <div class="textBox">
+          <h2>It's not just Cofee<br />It's <span>Starbucks</span></h2>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat
+            quasi facere veritatis commodi totam! Ea debitis, cumque laudantium
+            quibusdam harum ex fuga necessitatibus voluptas laboriosam quaerat
+            nihil. Repellat, explicabo suscipit.
+          </p>
+          <a href="">Learn more</a>
+        </div>
+        <img
+          class="contentImg"
+          src="https://www.starbucksathome.com/by/sites/default/files/2021-06/SBUX_Website_RG_ContachShadow_BlondeVeranda.png"
+        />
+      </div>
+      <ul class="thumb">
+        <li>
+          <img
+            class="mainImg"
+            onclick="imgSlider('img1.webp'); changeCirlceColor('#005230'); changeTextColor('#005230');"
+            src="img1.webp"
+          />
+        </li>
+        <li>
+          <img
+            class="mainImg"
+            onclick="imgSlider('img2.webp'); changeCirlceColor('#E3CA84'); changeTextColor('#E3CA84');"
+            src="img2.webp"
+          />
+        </li>
+        <li>
+          <img
+            class="mainImg"
+            onclick="imgSlider('img3.webp'); changeCirlceColor('#3E1D15'); changeTextColor('#3E1D15');"
+            src="img3.webp"
+            
+          />
+        </li>
+      </ul>
+    </section>
+     
+    </script>
+  </body>
 </html>
