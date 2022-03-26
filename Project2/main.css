@@ -1,13 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
-* {
+section {
   font-family: "Poppins", sans-serif;
   margin: 0;
-  padding: 0;
   -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-section {
+          box-sizing: border-box;
   position: relative;
   width: 100%;
   min-height: 100vh;
@@ -16,11 +12,11 @@ section {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   background: #fff;
 }
 
@@ -32,7 +28,7 @@ section {
   height: 100%;
   background: #005230;
   -webkit-clip-path: circle(700px at right 800px);
-  clip-path: circle(700px at right 800px);
+          clip-path: circle(700px at right 800px);
 }
 
 header {
@@ -45,11 +41,11 @@ header {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 header ul {
@@ -78,11 +74,11 @@ header ul li a {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .content .textBox {
@@ -125,8 +121,8 @@ header ul li a {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: end;
-  -ms-flex-pack: end;
-  justify-content: flex-end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
   padding-right: 50px;
   margin-top: 50px;
 }
@@ -150,7 +146,7 @@ header ul li a {
   display: -ms-flexbox;
   display: flex;
   -webkit-transform: translateX(-50%);
-  transform: translateX(-50%);
+          transform: translateX(-50%);
 }
 
 .thumb li {
@@ -164,7 +160,7 @@ header ul li a {
 
 .thumb li:hover {
   -webkit-transform: translateY(-15px);
-  transform: translateY(-15px);
+          transform: translateY(-15px);
 }
 
 .mainImg {
