@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
-section {
+.section1 {
   font-family: "Poppins", sans-serif;
   margin: 0;
   -webkit-box-sizing: border-box;
@@ -48,18 +48,18 @@ header {
           align-items: center;
 }
 
-header ul {
+header nav ul {
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-header ul li {
+header nav ul li {
   list-style: none;
 }
 
-header ul li a {
+header nav ul li a {
   display: inline-block;
   color: #333;
   font-weight: 400;
