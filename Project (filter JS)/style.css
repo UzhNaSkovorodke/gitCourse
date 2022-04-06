@@ -1,0 +1,47 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+nav ul li {
+  display: inline-block;
+  padding: 10px 40px 10px 0;
+  cursor: pointer;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 50px auto;
+}
+
+.box {
+  border-radius: 4px;
+  min-height: 140px;
+  min-width: 140px;
+  padding: 0 10px;
+  margin: 15px;
+  float: left;
+}
+
+.box.alizarin {
+  border: 3px solid #fd7869;
+}
+
+.box.wisteria {
+  border: 3px solid #ce95d7;
+}
+
+.box.emerland {
+  border: 3px solid #69fd89;
+}
+
+.box.belizehole {
+  border: 3px solid #aac7f1;
+}
+
+.box.sunflower {
+  border: 3px solid #d5d525;
+}
+/*# sourceMappingURL=style.css.map */

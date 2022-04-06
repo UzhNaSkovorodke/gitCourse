@@ -1,0 +1,37 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+nav ul li {
+  display: inline-block;
+  padding: 10px 40px 10px 0;
+  cursor: pointer;
+}
+.container {
+  max-width: 1200px;
+  margin: 50px auto;
+}
+.box {
+  border-radius: 4px;
+  min-height: 140px;
+  min-width: 140px;
+  padding: 0 10px;
+  margin: 15px;
+  float: left;
+}
+.box.alizarin {
+  border: 3px solid rgb(253, 120, 105);
+}
+.box.wisteria {
+  border: 3px solid rgb(206, 149, 215);
+}
+.box.emerland {
+  border: 3px solid rgb(105, 253, 137);
+}
+.box.belizehole {
+  border: 3px solid rgb(170, 199, 241);
+}
+.box.sunflower {
+  border: 3px solid rgb(213, 213, 37);
+}
