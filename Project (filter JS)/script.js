@@ -5,7 +5,8 @@ document.querySelector("nav").addEventListener("click", (event) => {
   let filterClass = event.target.dataset["f"];
 
   filterBox.forEach((elem) => {
-    if (!elem.classList.contains(filterClass)) {
+    elem.classList.remove("hide");
+    if (!elem.classList.contains(filterClass) && filterClass !== "all") {
       elem.classList.add("hide");
     }
   });
