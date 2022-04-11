@@ -1,68 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+$bgrey: #161616;
 a {
   text-decoration: none;
-  color: rgb(0, 0, 0);
-  font-weight: bold;
-  //убираю с ссылок все некрасивое оформление и ставлю свое
+  color: white;
 }
-.appHeader {
-  padding-bottom: 100px;
-  .listNav {
+nav {
+  padding: 0 400px;
+  background-color: $bgrey;
+  ul {
+    list-style-type: none;
     display: flex;
+    justify-content: center;
     align-items: center;
-    width: 100%;
-    position: fixed;
-    z-index: 2;
-    scroll-snap-type: y mandatory;
-    scrollbar-width: none; //for firefox
-    background: hsl(0, 0%, 27%);
-    @supports (backdrop-filter: blur(2px)) {
-      //проверка (свойтво: значение) выполняются, то { }
-      background: hsla(0, 0%, 18%, 0.425);
-      backdrop-filter: blur(2px);
-    }
-    .navParagraph {
-      padding: 2vh 3vh 2vh 3vh;
-      //делаю отступ навигации
+    li {
+      padding: 20px 60px;
+      font-size: 18px;
+      color: white;
     }
   }
-  //редактирую  стили навигации
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 99;
 }
-.appAboutMe {
-  background-color: rgb(255, 255, 255);
-  height: 900px;
-  .pngAvatar {
-    width: 500px;
+.app__AboutMe {
+  display: flex;
+  padding: 150px 200px;
+}
+.block__About {
+  width: 100%;
+  height: 540px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .block__textAbout {
+    width: 600px;
+    color: $bgrey;
+    h1 {
+      font-size: 42px;
+    }
+    p {
+      padding-top: 40px;
+      font-size: 20px;
+    }
   }
-  .blockPhoto {
-    padding: 200px;
+
+  .img__imgAbout {
+    width: 400px;
+    height: 500px;
+    padding-left: 80px;
+  }
+}
+
+.block__Skills {
+  height: 340px;
+  background-color: $bgrey;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  padding: 10px 300px;
+  .block__textSkills {
+    width: 600px;
+    font-size: 20px;
+  }
+}
+.block__Works {
+  width: 100%;
+  height: 1400px;
+  .panel__cover {
+    padding: 100px 400px 0px 400px;
     display: flex;
     justify-content: space-around;
-    //сделал флекс блоку с фото и замутил space around
+    .tag {
+      cursor: pointer;
+    }
   }
-  .blockAbout {
+  .block__cover {
+    padding: 50px 400px;
     display: flex;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content: center;
     align-items: center;
+    .box {
+      border-radius: 4px;
+      min-height: 320px;
+      min-width: 450px;
+      padding: 0 10px;
+      margin: 15px;
+    }
+    .project1 {
+      border: 3px solid rgb(122, 122, 122);
+    }
+    .project2 {
+      border: 3px solid rgb(32, 54, 127);
+    }
+    .box.project3 {
+      min-width: 960px;
+      border: 3px solid rgb(129, 43, 43);
+    }
   }
 }
-.containerPhoto {
-  width: 300px;
-  height: 150px;
-  background-color: rgb(131, 131, 131);
-  //накидал контейнеры для будущего image scroll
-}
-.appProjects {
-  height: 2000px;
-  .blockProjects {
-    padding: 200px;
-    background-color: rgb(255, 210, 210);
-  }
-}
-.appContacts {
-  background-color: rgb(255, 218, 241);
-  height: 2000px;
-}
-.appFooter {
-  background-color: rgb(213, 255, 241);
-  height: 2000px;
+.block__Contacts {
+  background-color: $bgrey;
+  width: 100%;
+  height: 600px;
 }
