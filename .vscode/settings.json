@@ -1,4 +1,4 @@
 {
-  "workbench.preferredLightColorTheme": "Visual Studio Dark",
-  "editor.minimap.enabled": false //убрал режим полосы у прокрутки справа
+  "workbench.preferredLightColorTheme": "Visual Studio Dark"
+  // "editor.minimap.enabled": false //убрал режим полосы у прокрутки справа
 }
