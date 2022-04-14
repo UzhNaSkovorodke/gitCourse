@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+$bgrey: #161616;
+a {
+  text-decoration: none;
+  color: white;
+}
+.panelNavigation {
+  padding: 0 400px;
+  background-color: $bgrey;
+  ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    li {
+      padding: 20px 60px;
+      font-size: 18px;
+      color: white;
+    }
+  }
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 99;
+}
+
+.app__AboutMe {
+  display: flex;
+  padding: 150px 200px;
+}
+.block__About {
+  width: 100%;
+  height: 540px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .block__textAbout {
+    width: 600px;
+    color: $bgrey;
+    h1 {
+      font-size: 42px;
+    }
+    p {
+      padding-top: 40px;
+      font-size: 20px;
+    }
+  }
+
+  .img__imgAbout {
+    width: 400px;
+    height: 500px;
+    padding-left: 80px;
+  }
+}
+
+.block__Skills {
+  height: 340px;
+  background-color: $bgrey;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  padding: 10px 300px;
+  .block__textSkills {
+    width: 600px;
+    font-size: 20px;
+  }
+  .icon {
+    width: 60px;
+    height: 65px;
+  }
+  .wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    .wrapperBox {
+      width: 100px;
+      text-align: center;
+    }
+  }
+}
+.block__Works {
+  width: 100%;
+  height: 1400px;
+  .panel__cover {
+    padding: 100px 600px 0px 600px;
+    display: flex;
+    justify-content: space-around;
+    .tag {
+      cursor: pointer;
+    }
+  }
+  .panel {
+    padding: 100px 600px 0px 600px;
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    cursor: pointer;
+
+    nav ul li {
+      display: inline-block;
+      padding: 10px 40px 10px 0;
+      cursor: pointer;
+      text-align: center;
+    }
+  }
+
+  .block-cover {
+    margin: 30px 300px;
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+  }
+  .filter {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .box {
+    border-radius: 2px;
+    height: 250px;
+    width: 220px;
+    margin: 15px 50px;
+    // float: right;
+  }
+  .underBox {
+    height: 80%;
+    width: 100%;
+  }
+  .underBox.projectOne {
+    background-color: grey;
+  }
+  .underBox.projectTwo {
+    background-color: darkgrey;
+  }
+  .underBox.projectThree {
+    background-color: wheat;
+  }
+  .hide {
+    opacity: 1;
+    font-size: 4px;
+    animation-name: a1;
+    animation-duration: 0s;
+    animation-fill-mode: forwards;
+  }
+  .panelText {
+    font-size: 20px;
+  }
+  .textBox {
+    color: black;
+    text-align: center;
+  }
+  @keyframes a1 {
+    to {
+      opacity: 0;
+      height: 0;
+      width: 0;
+      padding: 0;
+      margin: 0;
+      border: 0;
+    }
+  }
+}
+
+.appContacts {
+  background-color: $bgrey;
+  width: 100%;
+  height: 500px;
+}

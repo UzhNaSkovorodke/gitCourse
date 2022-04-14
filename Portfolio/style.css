@@ -1,0 +1,251 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.panelNavigation {
+  padding: 0 400px;
+  background-color: #161616;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 99;
+}
+
+.panelNavigation ul {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.panelNavigation ul li {
+  padding: 20px 60px;
+  font-size: 18px;
+  color: white;
+}
+
+.app__AboutMe {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 150px 200px;
+}
+
+.block__About {
+  width: 100%;
+  height: 540px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.block__About .block__textAbout {
+  width: 600px;
+  color: #161616;
+}
+
+.block__About .block__textAbout h1 {
+  font-size: 42px;
+}
+
+.block__About .block__textAbout p {
+  padding-top: 40px;
+  font-size: 20px;
+}
+
+.block__About .img__imgAbout {
+  width: 400px;
+  height: 500px;
+  padding-left: 80px;
+}
+
+.block__Skills {
+  height: 340px;
+  background-color: #161616;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  padding: 10px 300px;
+}
+
+.block__Skills .block__textSkills {
+  width: 600px;
+  font-size: 20px;
+}
+
+.block__Skills .icon {
+  width: 60px;
+  height: 65px;
+}
+
+.block__Skills .wrapper {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+}
+
+.block__Skills .wrapper .wrapperBox {
+  width: 100px;
+  text-align: center;
+}
+
+.block__Works {
+  width: 100%;
+  height: 1400px;
+}
+
+.block__Works .panel__cover {
+  padding: 100px 600px 0px 600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.block__Works .panel__cover .tag {
+  cursor: pointer;
+}
+
+.block__Works .panel {
+  padding: 100px 600px 0px 600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  list-style-type: none;
+  cursor: pointer;
+}
+
+.block__Works .panel nav ul li {
+  display: inline-block;
+  padding: 10px 40px 10px 0;
+  cursor: pointer;
+  text-align: center;
+}
+
+.block__Works .block-cover {
+  margin: 30px 300px;
+  width: 80%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+}
+
+.block__Works .filter {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.block__Works .box {
+  border-radius: 2px;
+  height: 250px;
+  width: 220px;
+  margin: 15px 50px;
+}
+
+.block__Works .underBox {
+  height: 80%;
+  width: 100%;
+}
+
+.block__Works .underBox.projectOne {
+  background-color: grey;
+}
+
+.block__Works .underBox.projectTwo {
+  background-color: darkgrey;
+}
+
+.block__Works .underBox.projectThree {
+  background-color: wheat;
+}
+
+.block__Works .hide {
+  opacity: 1;
+  font-size: 4px;
+  -webkit-animation-name: a1;
+          animation-name: a1;
+  -webkit-animation-duration: 0s;
+          animation-duration: 0s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+
+.block__Works .panelText {
+  font-size: 20px;
+}
+
+.block__Works .textBox {
+  color: black;
+  text-align: center;
+}
+
+@-webkit-keyframes a1 {
+  to {
+    opacity: 0;
+    height: 0;
+    width: 0;
+    padding: 0;
+    margin: 0;
+    border: 0;
+  }
+}
+
+@keyframes a1 {
+  to {
+    opacity: 0;
+    height: 0;
+    width: 0;
+    padding: 0;
+    margin: 0;
+    border: 0;
+  }
+}
+
+.appContacts {
+  background-color: #161616;
+  width: 100%;
+  height: 500px;
+}
+/*# sourceMappingURL=style.css.map */
