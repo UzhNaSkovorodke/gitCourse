@@ -1,7 +1,9 @@
-let yop = {};
-i = 0;
-while (i < 4) {
-  i += 1;
-  yop.i = Math.round(Math.random() * 100);
-}
-console.log(yop);
+let user = {
+  name: "Кирилл",
+  age: 20,
+};
+
+let clone = {};
+
+Object.assign(clone, user);
+console.log(user, clone);
