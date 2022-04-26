@@ -1,8 +1,7 @@
 let mas = [];
 i = 0;
-while (i < 5) {
+while (i < 4) {
   mas[i] = prompt("", "");
   i++;
 }
-mas.unshift("6");
 console.log(mas);
